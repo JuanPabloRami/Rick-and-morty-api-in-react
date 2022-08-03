@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Lobster&family=Shadows+Into+Light&display=swap);
+
+*{
+  margin: 0;
+  border: 0;
+  margin-top: 0;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  
+}
+
+h1{
+  color: aliceblue;
+  text-shadow: 0 0 15px #eebb15;
+  margin-top: 0;
+  font-family: "Shadows Into Light",cursive;
+}
+
+p{
+  color:aliceblue;
+}
+
+label{
+  color: #737373d1;
+  color: aliceblue;
+}
+
+input{
+  background-color: rgb(255, 255, 255);
+  border: none;
+  height: 2rem;
+  width: 70%;
+  text-align: center;
+  font-size:180%;
+}
+
+/* layout nav y barra de busqueda */
+
+nav{
+  background-image: url(components/images/rickAndMorty.jpg);
+  background-size:cover;
+  width: 100%;
+  height: 37rem;
+  background-position: 0% 82%;
+}
+
+.searchContainer{
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 1, 49);
+}
+
+/* XD */
+
+#CardSection{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+#CardContainer{
+  display: flex;
+  width: 13rem;
+  height: 16rem;
+}
+
+#imgContainer{
+  width: 50%;
+}
+
+#rightContainer{
+  width: 50%;
+}
+
+/* estilos de cada tarjeta  */
+
+.card {
+  width: 26rem;
+  height: 15rem;
+  background-color: #3c3e44;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.div-img {
+  width: 40%;
+  height: 100%;
+  margin: 0;
+}
+
+.img-card {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.txt-content {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.txt-content p{
+  padding-top:10px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 1.2rem;
+  color: #ffffff;
+  font-weight: 600;
+  font-style: oblique;
+  text-shadow: 0 0 15px #eebb15;
+  font-family: "Shadows Into Light",cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+
+
